@@ -1,0 +1,13 @@
+D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\bin\Debug\Laba4_ControlLib.dll
+D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\bin\Debug\Laba4_ControlLib.pdb
+D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\GameControl.g.cs
+D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\Laba4_ControlLib_MarkupCompile.cache
+D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\Laba4_ControlLib_MarkupCompile.lref
+D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\GameControl.baml
+D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\Laba4_ControlLib.g.resources
+D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\Laba4_ControlLib.Properties.Resources.resources
+D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\Laba4_ControlLib.csproj.GenerateResource.cache
+D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\Laba4_ControlLib.csproj.CoreCompileInputs.cache
+D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\Laba4_ControlLib.dll
+D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\Laba4_ControlLib.pdb
+D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\GeneratedInternalTypeHelper.g.cs
