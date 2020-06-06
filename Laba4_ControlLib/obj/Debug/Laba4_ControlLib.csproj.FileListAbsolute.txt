@@ -11,3 +11,4 @@ D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\Laba4_ControlLi
 D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\Laba4_ControlLib.dll
 D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\Laba4_ControlLib.pdb
 D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\obj\Debug\Laba4_ControlLib.csprojAssemblyReference.cache

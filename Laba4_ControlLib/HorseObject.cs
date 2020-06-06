@@ -23,7 +23,7 @@ namespace Laba4_ControlLib
 
         // Поля.
         private Rect _objectRect;
-        private string _coordinateState;
+        private double _xState;
         private string _speed;
         private BitmapSource _image;
 
@@ -64,18 +64,18 @@ namespace Laba4_ControlLib
             }
         }
 
-        public string CoodinateState
+        public double XState
         {
-            get { return this._coordinateState; }
+            get { return this._xState; }
             protected set
             {
-                if (value == this._coordinateState)
+                if (value == this._xState)
                 {
                     return;
                 }
 
-                this._coordinateState = value;
-                this.OnPropertyChanged("CoodinateState");
+                this._xState = value;
+                this.OnPropertyChanged("XState");
             }
         }
 
@@ -103,7 +103,7 @@ namespace Laba4_ControlLib
             rect.Location = point;
             this.ObjectRect = rect;
             // Счетчик отсчитывает координату х.
-            this.counter = new Counter { Start = -200, Step = random.NextDouble() * 5, End = 1280 };
+            this.counter = new Counter { Start = -200, Step = random.NextDouble() *3, End = 1280 };
         }
 
         // Переопределенный метод выполняет обновление состояния объекта.
@@ -113,8 +113,9 @@ namespace Laba4_ControlLib
             // Округляем координату чтобы положение было кратно одному пикселу.
             rect.X = Math.Round(this.counter.Value);
             this.ObjectRect = rect;
-            this.CoodinateState = string.Format("Координаты лошади {0}: {1}",name, this.ObjectRect.Location);
+            this.XState = this.ObjectRect.Location.X;
             this.Speed = string.Format("Скорость лошади {0}: {1:F}", name, counter.Step);
+            counter.Step = random.NextDouble() * 3;
         }
 
     }

@@ -56,13 +56,13 @@
             </Canvas.Resources>
 
             <Image DataContext="{Binding Path=whiteHorse}" Height="150" 
-                   MouseLeftButtonUp="Element_OnMouseLeftButtonUp" MouseRightButtonUp="Element_MouseRightButtonUp"/>
+                   MouseLeftButtonUp="WhiteHorse_OnMouseLeftButtonUp" MouseRightButtonUp="Element_MouseRightButtonUp"/>
 
             <Image DataContext="{Binding Path=blackHorse}" Height="150" 
-                   MouseLeftButtonUp="Element_OnMouseLeftButtonUp" MouseRightButtonUp="Element_MouseRightButtonUp"/>
+                   MouseLeftButtonUp="BlackHorse_OnMouseLeftButtonUp" MouseRightButtonUp="Element_MouseRightButtonUp"/>
 
             <Image DataContext="{Binding Path=brownHorse}" Height="150" 
-                   MouseLeftButtonUp="Element_OnMouseLeftButtonUp" MouseRightButtonUp="Element_MouseRightButtonUp"/>
+                   MouseLeftButtonUp="BrownHorse_OnMouseLeftButtonUp" MouseRightButtonUp="Element_MouseRightButtonUp"/>
            
         </Canvas>
 

@@ -18,8 +18,60 @@ namespace Laba4_ControlLib
         public BlackHorse blackHorse { get; set; }
         public BrownHorse brownHorse { get; set; }
 
+        private string _whitePosition;
+        private string _blackPosition;
+        private string _brownPosition;
+        private int position;
+
         // Запущена ли игра.
         public bool IsBusy { get; set; }
+
+        public string WhitePosition
+        {
+            get { return this._whitePosition; }
+            protected set
+            {
+                if (value == this._whitePosition)
+                {
+                    return;
+                }
+
+                this._whitePosition = value;
+                this.OnPropertyChanged("WhitePosition");
+            }
+        }
+
+        public string BlackPosition
+        {
+            get { return this._blackPosition; }
+            protected set
+            {
+                if (value == this._blackPosition)
+                {
+                    return;
+                }
+
+                this._blackPosition = value;
+                this.OnPropertyChanged("BlackPosition");
+            }
+        }
+
+        public string BrownPosition
+        {
+            get { return this._brownPosition; }
+            protected set
+            {
+                if (value == this._brownPosition)
+                {
+                    return;
+                }
+
+                this._brownPosition = value;
+                this.OnPropertyChanged("BrownPosition");
+            }
+        }
+
+
 
         // Сброс игры.
         public void Init()
@@ -44,8 +96,13 @@ namespace Laba4_ControlLib
                 state =>
                 {
                     whiteHorse.Update();
+                    calculateWhitePosition(whiteHorse);
+
                     blackHorse.Update();
+                    calculateBlackPosition(blackHorse);
+
                     brownHorse.Update();
+                    calculateBrownPosition(brownHorse);
                 },
                 null,
                 // Задержка.
@@ -75,6 +132,58 @@ namespace Laba4_ControlLib
             {
                 handler(this, new PropertyChangedEventArgs(propertyName));
             }
+        }
+
+        public void calculateWhitePosition(WhiteHorse horseObject)
+        {
+            if (horseObject.XState > blackHorse.XState && horseObject.XState > brownHorse.XState)
+            {
+                position = 1;
+            }
+            else if (horseObject.XState > blackHorse.XState || horseObject.XState > brownHorse.XState)
+            {
+                position = 2;
+            }
+            else
+            {
+                position = 3;
+            }
+            WhitePosition = string.Format("Позиция белой лошади: {0}", position);
+        }
+
+        public void calculateBrownPosition(BrownHorse horseObject)
+        {           
+            if (horseObject.XState > blackHorse.XState && horseObject.XState > whiteHorse.XState)
+            {
+                position = 1;
+            }
+            else if (horseObject.XState > blackHorse.XState || horseObject.XState > whiteHorse.XState)
+            {
+                position = 2;
+            }
+            else
+            {
+                position = 3;
+            }
+            BrownPosition = string.Format("Позиция коричневой лошади: {0}", position);
+        }
+
+        public void calculateBlackPosition(BlackHorse horseObject)
+        {
+            if (horseObject.XState > brownHorse.XState && horseObject.XState > whiteHorse.XState)
+            {
+                position = 1;
+            }
+            else if (horseObject.XState > brownHorse.XState || horseObject.XState > whiteHorse.XState)
+            {
+                position = 2;
+            }
+            else
+            {
+                position = 3;
+            }
+            BlackPosition = string.Format("Позиция черной лошади: {0}", position);
+
         }
 
     }

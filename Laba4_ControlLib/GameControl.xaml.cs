@@ -67,10 +67,19 @@ namespace Laba4_ControlLib
             this.MyScene.Init();
         }
 
-        private void Element_OnMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        private void WhiteHorse_OnMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            object obj = (sender as FrameworkElement).DataContext;
-            this.SetBinding(SelectedObjectInfoProperty, new Binding("CoodinateState") { Source = obj });
+            this.SetBinding(SelectedObjectInfoProperty, new Binding("WhitePosition") { Source = MyScene });
+        }
+
+        private void BlackHorse_OnMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            this.SetBinding(SelectedObjectInfoProperty, new Binding("BlackPosition") { Source = MyScene });
+        }
+
+        private void BrownHorse_OnMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            this.SetBinding(SelectedObjectInfoProperty, new Binding("BrownPosition") { Source = MyScene });
         }
 
         private void Element_MouseRightButtonUp(object sender, MouseButtonEventArgs e)
@@ -78,5 +87,7 @@ namespace Laba4_ControlLib
             object obj = (sender as FrameworkElement).DataContext;
             this.SetBinding(SelectedObjectInfoProperty, new Binding("Speed") { Source = obj });
         }
+
+     
     }
 }
