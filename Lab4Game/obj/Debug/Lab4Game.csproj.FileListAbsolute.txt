@@ -1,13 +1,13 @@
-D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\obj\Debug\Lab4Game.csprojAssemblyReference.cache
-D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\obj\Debug\App.g.cs
-D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\obj\Debug\Lab4Game_MarkupCompile.cache
-D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\obj\Debug\MainWindow.g.cs
 D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\bin\Debug\Lab4Game.exe.config
 D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\bin\Debug\Lab4Game.exe
 D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\bin\Debug\Lab4Game.pdb
 D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\bin\Debug\Laba4_ControlLib.dll
 D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\bin\Debug\Laba4_ControlLib.pdb
+D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\obj\Debug\Lab4Game.csprojAssemblyReference.cache
 D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\obj\Debug\MainWindow.baml
+D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\obj\Debug\MainWindow.g.cs
+D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\obj\Debug\App.g.cs
+D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\obj\Debug\Lab4Game_MarkupCompile.cache
 D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\obj\Debug\Lab4Game.g.resources
 D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\obj\Debug\Lab4Game.Properties.Resources.resources
 D:\ПОИС\СВПП\Laba4_ControlLib\Lab4Game\obj\Debug\Lab4Game.csproj.GenerateResource.cache

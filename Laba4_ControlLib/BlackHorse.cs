@@ -12,7 +12,7 @@ namespace Laba4_ControlLib
     {
         public BlackHorse()
         {
-            this.Image = BitmapFrame.Create(new Uri("D:/ПОИС/СВПП/Laba4_ControlLib/Laba4_ControlLib/black_horse.png", UriKind.RelativeOrAbsolute));
+            this.Image = new BitmapImage(new Uri("Assets/black_horse.png", UriKind.RelativeOrAbsolute));
             point = new Point(0, 250);
             name = "Черная";
         }

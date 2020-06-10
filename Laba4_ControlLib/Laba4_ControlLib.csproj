@@ -89,13 +89,12 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="black_horse.png" />
-    <Resource Include="brown_horse.png" />
-    <Resource Include="grass_background.jpg" />
-    <Resource Include="white_horse.png" />
+    <Resource Include="Assets\black_horse.png" />
+    <Resource Include="Assets\brown_horse.png" />
+    <Resource Include="Assets\grass_background.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="rsz_white_horse.png" />
+    <Resource Include="Assets\rsz_white_horse.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

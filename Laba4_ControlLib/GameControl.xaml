@@ -15,7 +15,7 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="D:\ПОИС\СВПП\Laba4_ControlLib\Laba4_ControlLib\grass_background.jpg"/>
+            <ImageBrush ImageSource="Assets/grass_background.jpg"/>
         </Grid.Background>
         
         <Canvas ClipToBounds="True" UseLayoutRounding="False">

@@ -12,7 +12,7 @@ namespace Laba4_ControlLib
     {
         public WhiteHorse()
         {
-            this.Image = BitmapFrame.Create(new Uri("D:/ПОИС/СВПП/Laba4_ControlLib/Laba4_ControlLib/rsz_white_horse.png", UriKind.RelativeOrAbsolute));
+            this.Image = new BitmapImage(new Uri("Assets/rsz_white_horse.png", UriKind.RelativeOrAbsolute));
             point = new Point(0, 10);
             name = "Белая";
         }
